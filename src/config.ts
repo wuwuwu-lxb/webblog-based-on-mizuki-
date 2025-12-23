@@ -23,7 +23,7 @@ const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UT
 export const siteConfig: SiteConfig = {
 	title: "唔唔唔的冒险日记",
 	subtitle: "欢迎你的到来",
-	siteURL: "https://wwwuuu0521.top", // 请替换为你的站点URL，以斜杠结尾
+	siteURL: "https://wwwuuu0521.top/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2025-12-23", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
@@ -116,7 +116,7 @@ export const siteConfig: SiteConfig = {
 		carousel: {
 			enable: true, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
 
-			interval: 1.5, // 轮播间隔时间（秒）
+			interval: 2, // 轮播间隔时间（秒）
 		},
 
 		waves: {
@@ -245,22 +245,22 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/wuwuwu-lxb",
 					external: true,
 					icon: "fa6-brands:github",
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					url: "https://space.bilibili.com/3537124569647330",
 					external: true,
 					icon: "fa6-brands:bilibili",
 				},
-				{
+				/*{
 					name: "Gitee",
 					url: "https://gitee.com/matsuzakayuki/Mizuki",
 					external: true,
 					icon: "mdi:git",
-				},
+				},*/
 			],
 		},
 		{
@@ -268,17 +268,12 @@ export const navBarConfig: NavBarConfig = {
 			url: "/content/",
 			icon: "material-symbols:person",
 			children: [
-				{
-					name: "Anime",
-					url: "/anime/",
-					icon: "material-symbols:movie",
-				},
-				{
+ 				{
 					name: "Diary",
 					url: "/diary/",
 					icon: "material-symbols:book",
 				},
-				{
+				/*{
 					name: "Gallery",
 					url: "/albums/",
 					icon: "material-symbols:photo-library",
@@ -288,7 +283,7 @@ export const navBarConfig: NavBarConfig = {
 					url: "devices/",
 					icon: "material-symbols:devices",
 					external: false,
-				},
+				},*/
 			],
 		},
 		{
@@ -308,7 +303,7 @@ export const navBarConfig: NavBarConfig = {
 				},
 			],
 		},
-		{
+		/*{
 			name: "Others",
 			url: "#",
 			icon: "material-symbols:more-horiz",
@@ -329,13 +324,13 @@ export const navBarConfig: NavBarConfig = {
 					icon: "material-symbols:timeline",
 				},
 			],
-		},
+		},*/
 	],
 };
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "Matsuzaka Yuki",
+	name: "唔唔唔",
 	bio: "唔唔唔不喜欢吃鱼",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
@@ -345,28 +340,28 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibli",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			url: "https://space.bilibili.com/3537124569647330",
 		},
-		{
+		/*{
 			name: "Gitee",
 			icon: "mdi:git",
 			url: "https://gitee.com/matsuzakayuki",
-		},
+		},*/
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/wuwuwu-lxb",
 		},
-		{
+		/*{
 			name: "Codeberg",
 			icon: "simple-icons:codeberg",
 			url: "https://codeberg.org",
-		},
-		{
+		},*/
+		/*{
 			name: "Discord",
 			icon: "fa6-brands:discord",
 			url: "https://discord.gg/MqW6TcQtVM",
-		},
+		},*/
 	],
 };
 
@@ -419,19 +414,19 @@ export const commentConfig: CommentConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "Announcement", // 公告标题
-	content: "Welcome to my blog! This is a sample announcement.", // 公告内容
-	closable: true, // 允许用户关闭公告
+	title: "公告", // 公告标题
+	content: "A PERSTSITENT CSer need ", // 公告内容
+	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
-		text: "Learn More", // 链接文本
+		text: "了解更多", // 链接文本
 		url: "/about/", // 链接 URL
 		external: false, // 内部链接
 	},
 };
 
 export const musicPlayerConfig: MusicPlayerConfig = {
-	enable: true, // 启用音乐播放器功能
+	enable: false, // 启用音乐播放器功能
 	mode: "meting", // 音乐播放器模式，可选 "local" 或 "meting"
 	meting_api:
 		"https://www.bilibili.uno/api?server=:server&type=:type&id=:id&auth=:auth&r=:r", // Meting API 地址
