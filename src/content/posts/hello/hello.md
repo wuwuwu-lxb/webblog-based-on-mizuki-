@@ -18,15 +18,15 @@ category: 一个开始
 - 💭 **整理思路**
 - 🌟 **分享知识**
 - 🎯 **督促自己**
-
+---
 ```javascript
 function sayHello(name) {
   return `Hello, ${name}!`;
 }
 
-console.log(sayHello("唔唔唔")); 
+console.log(sayHello("唔唔唔"));
 ```
 
-~~更新频率（未知）~~ 
+~~更新频率（未知）~~
 
 ‍
