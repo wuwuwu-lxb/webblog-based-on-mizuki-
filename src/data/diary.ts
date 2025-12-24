@@ -12,7 +12,7 @@ export interface DiaryItem {
 }
 
 // 示例日记数据
-const diaryData: DiaryItem[] = [
+/*const diaryData: DiaryItem[] = [
 	{
 		id: 1,
 		content:
@@ -20,8 +20,21 @@ const diaryData: DiaryItem[] = [
 		date: "2025-01-15T10:30:00Z",
 		images: ["/images/diary/sakura.jpg", "/images/diary/1.jpg"],
 	},
+];*/
+const diaryData: DiaryItem[] = [
+	{
+		id: 1,
+		content:`
+12.22
+今天早上起很早，起来上高数，高数讲到微分方程了，还行的嘞，加油学。然后上c语言，讲到链表了，最近c语言落下了，该补。中午睡了会觉，下午看了一下AI，然后在搞网站的事情了，也还算搞出来一点东西吧，继续加油！晚上也在搞，一直到现在，总算有点起色。后面得多学点东西了。明天继续加油！
+今日句子：幸福是接受痛苦的同时，对快乐的主动选择
+今日歌曲：Fairydust
+今日小确幸：很高兴的一天，因为感觉效率有提升吧，但是还不够吧，继续吧，什么计划的又搁置了。`
+,
+		date: "2025-12-22T23:00:00Z",
+		images: ["/images/diary/12.22.jpg"],
+	},
 ];
-
 // 获取日记统计数据
 export const getDiaryStats = () => {
 	const total = diaryData.length;
