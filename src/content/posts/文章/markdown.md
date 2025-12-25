@@ -1,6 +1,6 @@
 ---
 title: markdown
-published: 2025-01-20
+published: 2025-12-25
 pinned: false
 description: a markdown tutorial
 tags: ["blog","tutorial"]
@@ -9,9 +9,9 @@ licenseName: Unlicensed
 author: 唔唔唔
 sourceLink: ""
 draft: false
-date: 2025-01-20
+date: 2025-12-25
 image: ""
-pubDate: 2025-01-20
+pubDate: 2025-12-25
 permalink: ""
 ---
 # 标题
