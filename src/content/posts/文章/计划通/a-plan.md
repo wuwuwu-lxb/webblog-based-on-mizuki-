@@ -3,16 +3,16 @@ title: 一些计划
 published: 2025-12-25
 pinned: true
 description: a simple plan
-tags: ["plan"]
-category: 目标
+tags: plan
+category: ["目标"]
 licenseName: Unlicensed
 author: 唔唔唔
-sourceLink: ""
+sourceLink:
 draft: false
 date: 2025-12-25
-image: ""
+image:
 pubDate: 2025-12-25
-permalink: ""
+permalink:
 ---
 
 # 我的学习清单（2025）
